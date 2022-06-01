@@ -1,0 +1,31 @@
+{
+    "name": "vespacestudios/vespace-cms",
+    "type": "project",
+    "description": "Small modular content management system",
+    "keywords": ["cms", "modular"],
+    "homepage": "https://github.com/VESpaceStudios/vespace-cms",
+    "require": {
+        "php": ">=8.0.0",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.7",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VESpaceCMS\\System\\": "system/",
+            "VESpaceCMS\\Modules\\": "modules/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladislav Aliev",
+            "email": "vladelena.studios@gmail.com",
+            "homepage": "https://github.com/VESpaceStudios",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable"
+}
